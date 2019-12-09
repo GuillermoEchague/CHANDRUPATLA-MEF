@@ -1,0 +1,34 @@
+INTRODUCTION TO FINITE ELEMENTS IN ENGINEERING
+    T.R. Chandrupatla and A.D. Belegundu
+    
+            'EXAMPLES' Directory
+              
+-  Each data file in the 'EXAMPLES' directory
+   has the same title as the corresponding
+   program, with an extension 'INP'
+   
+-  To create a data file for a problem follow
+   the steps given below:
+   
+      1. Copy the example data file into the
+         directory where the program resides
+         
+      2. Edit the file with the new data while
+         following the same format
+         
+      3. Save the file giving it a different
+         name
+         
+      4. The stage is now set for running the
+         program
+   
+-  A data file may be created using MESHGEN 
+   and/or DATAFEM.  Please compare the generated
+   file with the example file to check the format
+   
+-  Data file for HEAT1D2 needs to be prepared
+   using the file editing method.  Please compare
+   and edit data files created for HEAT2D2 and 
+   TORSION2 generated from using MESHGEN/DATAFEM.
+   
+                    - oOo -

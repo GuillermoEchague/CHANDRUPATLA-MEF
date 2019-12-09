@@ -1,0 +1,133 @@
+
+
+
+          INTRODUCTION TO FINITE ELEMENTS IN ENGINEERING
+                        (Second Edition)
+
+                   Tirupathi R. Chandrupatla
+                      Ashok D. Belegundu              
+
+
+    This disk includes all the revised programs and new programs
+    included in the second edition ofthe book.
+
+    PROGRAMS ACCOMPANYING CHAPTERS
+
+    Chapter 2            Chapter 3          Chapter 4
+      GAUSS_R2.BAS         FEM1D2.BAS         TRUSS2.BAS
+      SKYLINE2.BAS                            TRUSSKY2.BAS
+      CGSOL.BAS
+
+    Chapter 5            Chapter 6          Chapter 7
+      CST2.BAS             AXISYM2.BAS        QUAD2.BAS
+
+    Chapter 8            Chapter 9          Chapter 10
+      BEAM2.BAS            TETRA2.BAS         HEAT1D2.BAS
+      FRAME2D.BAS          HEXAFNT.BAS        HEAT2D2.BAS
+      FRAME3D.BAS                             TORSION2.BAS
+
+    Chapter 11                      Chapter 12       
+      INVITR2.BAS          MESHGEN2.BAS     CONTOUR1.BAS
+      JACOBI2.BAS          PLOT2D2.BAS      CONTOUT2.BAS
+      BEAMKM2.BAS          DATAFEM2.BAS     HGLCONV.BAS
+      CSTKM2.BAS           BESTFIT2.BAS     DXFCONV.BAS
+
+
+
+
+    FEATURES:
+
+      . All programs from Ch 3 to 12 have been revised to use File input.
+      . There is an example data file for each program. This file has a
+          simple structure and it can be edited for preparing data for
+          other problems.
+      . DATAFEM2 is made more efficient and user-friendly.
+          It can now create data for all structural programs.
+          Also handles Multi-point Constraints of the type B1*Qi+B2*Qj=B3.
+      . Multi-point constraints of the type B1*Qi+B2*Qj=B3 can now
+          be handled in all the static analysis programs.
+      . Temperature effect has been introduced in BAR, CST, AXISYM,
+          QUAD, TETRA, and HEXA elements. Element temperature change
+          can be handled.
+      . Plane Stress/Plane Strain Condition is now a choice.
+      . CST and AXISYM programs are modified to provide the choice
+          for plotting data.
+      . New programs are CGSOL, FRAME3D, HEXAFNT, BESTFITQ, CONTOUR2.
+      . The PLOT2D2 program now plots on EGA screen.
+      . The CONTOUR programs provide color contours.
+      . In the Hexahedral element the four nodes of a face 1-2-3-4
+          go around the boundary. 5-6-7-8 forms the parallel face and
+          1-2-3-4 is counterclockwise seen from the parallel face.
+      . Progams HGLCONV.BAS and DXFCONV.BAS included in the disk will
+          enable the user to convert the graphics for handling on other
+          CAD systems and Word Processors.
+      . FORTRAN and C source codes of all the programs for Chapter 1 
+          through 11 are included in the disk in separate directories.
+      . All data files are in the EXAMPLES directory.  The data file
+        has the program name with .INP extension.
+
+
+    MAIN VARIABLES
+
+      . All programs use the variables defined below:
+
+        NN  -----  Number of Nodes
+        NE  -----  Number of Elements
+        NM  -----  Number of Different Materials
+        NDIM  ---  Number of Coordinates per Node 
+                   (e.g. NDIM = 2 for 2D)
+        NEN  ----  Number of Nodes per Element
+                   (e.g. NEN = 3 for CST Elem)
+        NDN  ----  Number of Degrees of Freedom per Node 
+                   (e.g. NDN = 2 for BEAM)
+        ND  -----  Number of Specified Displacement Degrees of Freedom(DOF)
+        NL  -----  Number of Applied Component Loads (Along DOF directions)
+        NCH  ----  Number of Element Characteristics like Area and Temperature
+                     rise in BAR or TRUSS, Thickness and Temperature rise in 
+                     CST and so on.  Area, Moment of Inertia, Temperature 
+                     Rise etc are treated as Element Characteristics
+        NPR  ----  Number of Material Properties (e.g. E, nu, alpha)
+        NMPC  ---  Number of MultiPoint Constraints
+
+        The consistent use of variables will be of help to the user.
+
+
+    The user convenience has been the main consideration in the 
+    preparation of the programs for the Second Edition. With these
+    available programs, learning Finite Elements should be fun.
+
+
+    T.R.Chandrupatla 
+    Rowan College
+    Glassboro, NJ 08028
+
+    A.D.Belegundu
+    The Pennsylvania State University
+    University Park, PA 16802
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

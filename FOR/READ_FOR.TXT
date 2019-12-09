@@ -1,0 +1,30 @@
+INTRODUCTION TO FINITE ELEMENTS IN ENGINEERING
+    T.R. Chandrupatla and A.D. Belegundu
+    
+               'FOR' Directory
+              
+-  Source codes in FORTRAN for programs
+   supporting Chapters 2 through 11 are in
+   this directory
+   
+-  All FORTRAN programs were compiled and
+   tested using FORTRAN77 and other compilers
+   
+-  Array dimensions have been fixed at some
+   values to enable solution of small problems
+   
+-  Look carefully at the array dimensions and
+   match them in the subroutines while attemting
+   larger problems
+   
+-  The programs work with common data files
+   given in the examples directory
+   
+-  The example data file for a specific program
+   has the same title with a different extension
+   
+-  Input files may be created using the BASIC
+   programs of Chapter 12
+   
+-  The output files for 2-D problems are compatible
+   with the postprocessing programs of Chapter 12

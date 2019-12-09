@@ -1,0 +1,26 @@
+INTRODUCTION TO FINITE ELEMENTS IN ENGINEERING
+    T.R. Chandrupatla and A.D. Belegundu
+    
+              CPROG Directory
+              
+-  Source codes in C language for programs
+   supporting Chapters 2 through 11 are in
+   this directory
+   
+-  All C programs were compiled and tested
+   using ANSI C
+   
+-  Dynamic memory allocation is used in 
+   declaring the arrays
+   
+-  The programs work with common data files
+   given in the examples directory
+   
+-  The example data file for a specific program
+   has the same title with a different extension
+   
+-  Input files may be created using the BASIC
+   programs of Chapter 12
+   
+-  The output files for 2-D problems are compatible
+   with the postprocessing programs of Chapter 12
